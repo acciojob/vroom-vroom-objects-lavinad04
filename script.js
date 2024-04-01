@@ -1,7 +1,7 @@
 function Car(make, model) {
 	this.make = make;
 	this.model = model;
-	this.getMakeModel(make) = function(){
+	this.getMakeModel = function(){
 		return this.make,this.model;
 		}
 }
@@ -10,7 +10,7 @@ function SportsCar(make, model, topSpeed) {
 	this.make = make;
 	this.model = model;
 	this.topSpeed = topSpeed;
-	this.getTopSpeed(topSpeed) = function(){
+	this.getTopSpeed = function(){
 		return this.topSpeed;
 		}
 }
