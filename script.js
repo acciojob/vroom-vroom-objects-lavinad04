@@ -17,7 +17,7 @@ function SportsCar(make, model, topSpeed) {
 
 const car = new SportsCar("Ferrari", "Testarossa", 200);
 const car = new Car("suite", "bmw");
-console.log(two.getMakeModel()); 
+console.log(car.getMakeModel()); 
 console.log(car.getTopSpeed()); 
 
 window.Car = Car;
